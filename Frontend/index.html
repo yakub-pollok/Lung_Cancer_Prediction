@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lung Cancer Prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Lung Cancer Prediction</h2>
+
+    <input type="number" id="GENDER" placeholder="GENDER (0=Female,1=Male)">
+    <input type="number" id="AGE" placeholder="AGE">
+    <input type="number" id="SMOKING" placeholder="SMOKING(2=Yes,1=No)">
+    <input type="number" id="YELLOW_FINGERS" placeholder="YELLOW FINGERS(2=Yes,1=No)">
+    <input type="number" id="ANXIETY" placeholder="ANXIETY(2=Yes,1=No)">
+    <input type="number" id="PEER_PRESSURE" placeholder="PEER PRESSURE(2=Yes,1=No)">
+    <input type="number" id="CHRONIC_DISEASE" placeholder="CHRONIC DISEASE(2=Yes,1=No)">
+    <input type="number" id="FATIGUE" placeholder="FATIGUE(2=Yes,1=No)">
+    <input type="number" id="ALLERGY" placeholder="ALLERGY(2=Yes,1=No)">
+    <input type="number" id="WHEEZING" placeholder="WHEEZING(2=Yes,1=No)">
+    <input type="number" id="ALCOHOL_CONSUMING" placeholder="ALCOHOL CONSUMING(2=Yes,1=No)">
+    <input type="number" id="COUGHING" placeholder="COUGHING(2=Yes,1=No)">
+    <input type="number" id="SHORTNESS_OF_BREATH" placeholder="SHORTNESS OF BREATH(2=Yes,1=No)">
+    <input type="number" id="SWALLOWING_DIFFICULTY" placeholder="SWALLOWING DIFFICULTY(2=Yes,1=No)">
+    <input type="number" id="CHEST_PAIN" placeholder="CHEST PAIN(2=Yes,1=No)">
+
+    <button onclick="predict()">Predict</button>
+
+    <h3 id="result"></h3>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
