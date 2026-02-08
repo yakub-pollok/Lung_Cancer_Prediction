@@ -4,6 +4,7 @@
 venv/
 Lungenv/
 .env/
+packages.txt
 
 # ----------------------------
 # Python Cache / Compiled Files

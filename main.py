@@ -9,7 +9,7 @@ import os
 # Load ML model (safe path)
 # ==============================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(BASE_DIR, "Lung_Cancer_Prediction_Model.joblib")
+MODEL_PATH = os.path.join(BASE_DIR, "Backend/Lung_Cancer_Prediction_Model.joblib")
 
 if not os.path.exists(MODEL_PATH):
     raise RuntimeError("❌ Lung_Cancer_Prediction_Model.joblib file not found")
