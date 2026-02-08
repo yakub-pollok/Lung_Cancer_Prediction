@@ -17,7 +17,7 @@ function predict() {
         CHEST_PAIN: Number(CHEST_PAIN.value)
     };
 
-    fetch("https://lung-cancer-prediction-fxg7.onrender.com", {
+    fetch("https://lung-cancer-prediction-fxg7.onrender.com/predict", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
